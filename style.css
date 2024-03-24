@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-image: url("imgs/bg.png"); */
+    
+    
+}
+body{
+    
+    background-color: #ffffff;
+    
+}
+.card{
+    background: linear-gradient(135deg , #00feba , #5b548a);
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    text-align: center;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    color: #555;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.wea-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.wea h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.wea h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 15px;
+    
+}
+.col img{
+    width: 70px;
+    margin-right: 10px;
+    align-items: center;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.wind , .humi{
+    font-size: 18px;
+    margin-top: -6px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.wea{
+    display: none;
+}
+.error{
+    display: none;
+    margin-top: 30px;
+    font-size: 40px;
+    
+}
+.error img{
+    width: 90%;
+    margin-top: 30px;
+}
+
+@media  (max-width: 700px){
+.card{
+    width: 350px;
+}
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    padding: 7px 20px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    width: 150px;
+    margin-right: 2px;
+    font-size: 18px;
+    color: #555;
+}
+}
